@@ -57,6 +57,6 @@ Dependencies:
 ✅ Express.js (if using local API)  
 ✅ Pure HTML, CSS, JS (client-side)
 
-© 2025 Created by M. Boobeshwaran | Full Stack Intern @ Cognifyz Technologies
+© 2025 Created by M. Boobeshwaran | Full Stack Intern @Cognifyz Technologies
 
 
