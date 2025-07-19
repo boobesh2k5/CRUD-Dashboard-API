@@ -1,0 +1,21 @@
+# API and Node
+.env
+.env.local
+node_modules/
+package-lock.json
+
+# Debug logs
+*.log
+npm-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/

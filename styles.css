@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(135deg, #f0f4f8, #e4f0ff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form {
+  background: #fff;
+  border-radius: 12px;
+}
+
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 0.5s ease;
+}
+
+.badge {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

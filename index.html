@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🚀 Advanced User Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container my-5">
+    <h2 class="text-center animate__animated animate__fadeInDown"><i class="bi bi-globe"></i> Advanced User Dashboard</h2>
+
+    <!-- Form -->
+    <form id="userForm" class="card shadow p-4 animate__animated animate__fadeInLeft">
+      <input type="hidden" id="userId">
+      <div class="mb-3">
+        <label for="name" class="form-label">👤 Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">📧 Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="d-flex flex-wrap gap-2">
+        <button type="submit" class="btn btn-primary animate__animated animate__pulse"><i class="bi bi-person-plus-fill"></i> Add / Update</button>
+        <button type="reset" class="btn btn-secondary"><i class="bi bi-arrow-clockwise"></i> Reset</button>
+        <button type="button" class="btn btn-success" onclick="loadSampleUsers()"><i class="bi bi-cloud-download"></i> Load Sample Users</button>
+      </div>
+    </form>
+
+    <hr class="my-5"/>
+
+    <!-- Users List -->
+    <h4 class="text-center animate__animated animate__fadeInUp">📋 All Users</h4>
+    <ul id="userList" class="list-group shadow"></ul>
+  </div>
+
+  <footer class="text-center p-3 bg-dark text-light mt-5">
+    © 2025 Created by M Boobeshwaran | Full Stack Intern @ Cognifyz Technologies
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
